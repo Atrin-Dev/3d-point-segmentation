@@ -3,8 +3,8 @@ This repository implements PointNet for 3D point cloud segmentation, focusing on
 
 ## Usage
 
-Run the following command to segment a point cloud:
+Run the following command to train a point cloud:
 
 ```bash
-python segment.py --input data/sample1.ply --checkpoint path/to/checkpoint.pth --label_map path/to/labels.json --output results/segmented_sample1.ply
+python main.py --mode train
 
