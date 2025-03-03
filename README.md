@@ -23,10 +23,17 @@ Point-wise Classification or Segmentation
 ```
 
 
-## Usage
+## train
 
 Run the following command to train a point cloud:
 
 ```bash
 python main.py --mode train
+
+## Inference
+
+Run the following command to test segmenting a point cloud:
+
+```bash
+python main.py --mode eval
 
